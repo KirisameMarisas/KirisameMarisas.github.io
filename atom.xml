@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Kirisame&#39;s Blog</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-07-26T08:36:01.456Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>Kirisame Marisa</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Git 踩过的坑</title>
+    <link href="http://yoursite.com/2020/07/26/Git%20%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/"/>
+    <id>http://yoursite.com/2020/07/26/Git%20%E8%B8%A9%E8%BF%87%E7%9A%84%E5%9D%91/</id>
+    <published>2020-07-26T08:36:01.456Z</published>
+    <updated>2020-07-26T08:36:01.456Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Git踩过的坑"><a href="#Git踩过的坑" class="headerlink" title="Git踩过的坑"></a>Git踩过的坑</h1><blockquote><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p><a href="#1">1.Git fatal: refusing to merge unrelated histories</a></p></blockquote><hr><h3 id = '1'>　1.fatal: refusing to merge unrelated histories </h3> 　　　解决方法：>　　 git pull  / ***your repositories https*** / - -allow-unrelated-histories (第一个是两个‘-’)　]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Git踩过的坑&quot;&gt;&lt;a href=&quot;#Git踩过的坑&quot; class=&quot;headerlink&quot; title=&quot;Git踩过的坑&quot;&gt;&lt;/a&gt;Git踩过的坑&lt;/h1&gt;&lt;blockquote&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerl
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 的坑</title>
+    <link href="http://yoursite.com/2020/07/26/title-%20Hexo%20%E7%9A%84%E5%9D%91/"/>
+    <id>http://yoursite.com/2020/07/26/title-%20Hexo%20%E7%9A%84%E5%9D%91/</id>
+    <published>2020-07-26T04:01:58.348Z</published>
+    <updated>2020-07-26T04:01:58.348Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo踩过的坑汇总"><a href="#Hexo踩过的坑汇总" class="headerlink" title="Hexo踩过的坑汇总"></a>Hexo踩过的坑汇总</h1><blockquote><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p>  <a href="#1">1.Develop not found</a><br>  <a href="#2">2.CyanStyle 无法正常显示背景图片（且Git push 同步已经是 updated</a><br>  <a href="#3">3.使用CyanStyle 时间错误</a></p></blockquote><hr><h4 id="1-Develop-not-found"><a href="#1-Develop-not-found" class="headerlink" title="　　1.Develop not found"></a><h3 id='1'>　　1.Develop not found</h3></h4><p>　　　　原因：没有Develop元件。<br>　　　　解决方法：通过npm下载</p><blockquote><p>　　npm install hexo-deployer-git –save </p></blockquote><h4 id="2-CyanStyle-无法正常显示背景图片（且Git-push-同步已经是updated"><a href="#2-CyanStyle-无法正常显示背景图片（且Git-push-同步已经是updated" class="headerlink" title="　　2.CyanStyle 无法正常显示背景图片（且Git push 同步已经是updated) "></a><h3 id='2'>　　2.CyanStyle 无法正常显示背景图片（且Git push 同步已经是updated) </h3></h4><p>　　　　原因：背景文件及其他一些不存在<br>　　　　解决方法：到GitHub网站上下载zip压缩包，解压然后覆盖原文件夹<br>　　　　<a href="https://github.com/wizardforcel/hexo-theme-cyanstyle" target="_blank" rel="noopener">网址</a></p><h4 id="3-使用CyanStyle-时间错误"><a href="#3-使用CyanStyle-时间错误" class="headerlink" title="   3.使用CyanStyle 时间错误 "></a><h3 id='3'>   3.使用CyanStyle 时间错误 </h3></h4><p>　　　　出现情况：每次post到GitHub.io 所有文件时间都会同步至post时间<br>　　　　原因：主题原因<br>　　　　解决方法：换主题<br>　　　　<a href="https://hexo.io/themes/" target="_blank" rel="noopener">官方主题网址</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Hexo踩过的坑汇总&quot;&gt;&lt;a href=&quot;#Hexo踩过的坑汇总&quot; class=&quot;headerlink&quot; title=&quot;Hexo踩过的坑汇总&quot;&gt;&lt;/a&gt;Hexo踩过的坑汇总&lt;/h1&gt;&lt;blockquote&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; cl
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Ruby 学习</title>
+    <link href="http://yoursite.com/2020/07/26/title-%20Ruby%20%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/07/26/title-%20Ruby%20%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-07-26T03:58:58.591Z</published>
+    <updated>2020-07-26T03:58:58.591Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p><a href="#1">1.递归删除数组中某个元素</a><br><a href="#2">2.Rabbit MQ在Win10+wsl下的安装</a></p></blockquote><h3 id="递归删除数组中的某个元素"><a href="#递归删除数组中的某个元素" class="headerlink" title=" 递归删除数组中的某个元素"></a><h1 id = "1"> 递归删除数组中的某个元素</h3><p>　　　　在Ruby中，想要删除某个在数组中的元素，但数组多维，此时的技巧。</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">array_delete</span><span class="params">(array, element)</span></span></span><br><span class="line">    <span class="comment">#puts array.inspect</span></span><br><span class="line">    array.delete(element)</span><br><span class="line">    array.each &#123; <span class="params">|e|</span> array_delete(e,element) <span class="keyword">if</span> e.is_a?(Array)&#125;</span><br><span class="line">    <span class="comment">#array.delete([])</span></span><br><span class="line"><span class="keyword">end</span></span><br></pre></td></tr></table></figure><h3 id="Rabbit-MQ-在Win10-wsl下的安装"><a href="#Rabbit-MQ-在Win10-wsl下的安装" class="headerlink" title=" Rabbit MQ 在Win10+wsl下的安装"></a><h1 id = "2"> Rabbit MQ 在Win10+wsl下的安装</h3><p>　　　　主要使用wsl来使用Ruby语言，当在wsl环境下安装时，运行出现错误，显示无法运行，此时需要在Win10中安装Windows版本才能正常运行。需注意</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;#1&quot;&gt;1.递归删除数组中某个元素&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#2&quot;&gt;2.Rabbit M
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>博客站创建总结(Windows 10 系统下)</title>
+    <link href="http://yoursite.com/2020/07/26/title-%20%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%88%9B%E5%BB%BA%E6%80%BB%E7%BB%93(Windows%2010%20%E7%B3%BB%E7%BB%9F%E4%B8%8B)/"/>
+    <id>http://yoursite.com/2020/07/26/title-%20%E5%8D%9A%E5%AE%A2%E7%AB%99%E5%88%9B%E5%BB%BA%E6%80%BB%E7%BB%93(Windows%2010%20%E7%B3%BB%E7%BB%9F%E4%B8%8B)/</id>
+    <published>2020-07-26T03:45:24.306Z</published>
+    <updated>2020-07-26T03:45:24.306Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p><a href="#1">1.了解一般类型的博客站的建立方法</a><br><a href="#2">2.GitHub io</a><br><a href="#3">3.GitHub io + Hexo</a><br><a href="#4">4.遇到的问题及其解决方法</a></p></blockquote><h3 id="了解一般类型的博客站的建立方法"><a href="#了解一般类型的博客站的建立方法" class="headerlink" title="了解一般类型的博客站的建立方法"></a><h1 id="1">了解一般类型的博客站的建立方法</h1></h3><p>　　<a href="https://segmentfault.com/a/1190000011290309" target="_blank" rel="noopener">Re：从零开始的博客搭建</a> 使用linux系统远程搭建一个Hexo框架的blog<br>　　<a href="https://andrew-liu.gitbooks.io/django-blog/index.html" target="_blank" rel="noopener">Django学习</a> 使用Django框架<br>　　<a href="https://blog.coding.net/blog/CS-Hexo" target="_blank" rel="noopener">快速搭建Blog</a> 基于腾讯云的搭建。</p><h3 id="GitHub-io"><a href="#GitHub-io" class="headerlink" title="GitHub io"></a><h1 id="2">GitHub io</h1></h3><p>　　除了这些外，我也看到了许多使用 <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Page</a> 来搭建自己的Blog。<br>　　<br>　　<a href="https://www.imooc.com/article/3423" target="_blank" rel="noopener">https://www.imooc.com/article/3423</a>　(GitHub io + Hexo)</p><p>　　<a href="http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html" target="_blank" rel="noopener">http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html</a> (GitHub io + Jekyll)</p><p>　　<a href="http://hpdoger.me/2018/05/26/%E5%88%A9%E7%94%A8Hexo%E5%92%8CGithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">http://hpdoger.me/2018/05/26/%E5%88%A9%E7%94%A8Hexo%E5%92%8CGithub%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</a> (GitHub io + Hexo)</p><p>　　<a href="https://blog.csdn.net/cdl2008sky/article/details/79011852" target="_blank" rel="noopener">https://blog.csdn.net/cdl2008sky/article/details/79011852</a> (GitHub io + Hexo)</p><p>　　在对比了自己搭建和使用第三方平台的一些优缺点之后，我选择使用GitHub Page.而框架 使用 Hexo框架。<br>　　<br>　　简单用流程图表示一下建立GitHub Page 的过程</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: have a GitHub account</span><br><span class="line">op1&#x3D;&gt;operation: creat a new repositories [***.github.io](*** must be the same as the User&#39;s name)</span><br><span class="line">op2&#x3D;&gt;operation: Setting -&gt; GitHub Pages</span><br><span class="line">op3&#x3D;&gt;operation: Set Souce to master branch</span><br><span class="line">op4&#x3D;&gt;operation: Choose themes</span><br><span class="line">op5&#x3D;&gt;operation: Check steps</span><br><span class="line">op6&#x3D;&gt;operation: Browse ***.github.io</span><br><span class="line">cond&#x3D;&gt;condition: Display Yes or No ?</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line"></span><br><span class="line">st-&gt;op1-&gt;op2-&gt;op3-&gt;op4-&gt;op6</span><br><span class="line">op6-&gt;cond</span><br><span class="line">cond(yes)-&gt;e</span><br><span class="line">cond(no)-&gt;op5-&gt;op1</span><br></pre></td></tr></table></figure><h3 id="GitHub-io-Hexo"><a href="#GitHub-io-Hexo" class="headerlink" title="GitHub io + Hexo"></a><h1 id="3">GitHub io + Hexo</h1></h3><p>　　配置好之后，GitHub Page 大概如下图所示(选择主题不同，样式也会不一样)<br>　　<img src="data:image/jpeg;base64,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" alt="null"><br>　　我主要根据<a href="https://blog.csdn.net/cdl2008sky/article/details/79011852" target="_blank" rel="noopener">这个网站</a>来构建。<br>　　在我的电脑里，git已经安装好。<br>　　nodejs在安装 Visual Studio 2017 时已经安装在本机里。利用Windows搜索功能查找 nodejs 或 node.exe 就能够查到。<br>　　如果没有安装，<a href="https://blog.csdn.net/cdl2008sky/article/details/79011852" target="_blank" rel="noopener">这个网站</a>也有教程方法。<br>　　<strong>注意</strong>: <strong>安装完之后请务必将系统环境变量更改(包括已经安装的)**。<br>　　**</strong><font color=Red>设置完之后务必重启电脑</font>****<br>　　<br>　　在使用 npm 命令时，如果出现 command not found 的情况。</p><p>　　1.利用Windows搜索功能，搜索是否存在 npm 文件夹。<br>　　2.有，则设置为环境变量，无，则从网上下载。</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">st&#x3D;&gt;start: Not found</span><br><span class="line">op&#x3D;&gt;operation: Search npm</span><br><span class="line">cond&#x3D;&gt;condition: Yes or No?</span><br><span class="line">e&#x3D;&gt;end</span><br><span class="line"></span><br><span class="line">Set&#x3D;&gt;operation: Set environment variables</span><br><span class="line">Download&#x3D;&gt;operation: download form Internet</span><br><span class="line">Reboot&#x3D;&gt;operation: Reboot</span><br><span class="line">st-&gt;op-&gt;cond</span><br><span class="line">cond(yes)-&gt;Set</span><br><span class="line">cond(no)-&gt;Download</span><br><span class="line">Set-&gt;Reboot-&gt;e</span><br><span class="line">Download-&gt;Set</span><br></pre></td></tr></table></figure><p>　　  根据教程新建了一个本地的网站，<br>　　<br>　　  <img src="http://img1.imgtn.bdimg.com/it/u=996511926,3300922985&fm=26&gp=0.jpg" alt="null"><br>　　<br>　　  使用 Git Bash 上传网站。(使用方法在<a href="https://blog.csdn.net/cdl2008sky/article/details/79011852" target="_blank" rel="noopener">这个网站</a>第三点 GitHub 第三问中有具体说明)<br>　　<br>　　  #更换主题<br>　　  <a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo 官网</a>提供很多<a href="https://hexo.io/themes/" target="_blank" rel="noopener">主题</a>.<br>　　  使用 git clone 命令将它们克隆下来。<br>　　<br>　　  使用文本编辑器(如 记事本,写字板, nodepad++,sublime text,vim,emacs等)打开 Hexo 目录(即 hexo init 创建的目录)下 config.yml 配置文件,修改 theme 属性 设置为 themes文件夹中你所需要的主题名。　　  </p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">　　$ hexo clean // 清除缓存</span><br><span class="line">　　$ hexo g // 或是 hexo generate 生成静态页面至public目录</span><br><span class="line">　　$ hexo s // 开启预览访问端口（默认端口4000，<span class="string">'ctrl + c'</span>关闭server）</span><br></pre></td></tr></table></figure><p>　　在预览无误后，就准备提交了。<br>　　依旧是打开 config.yml 配置文件。　　</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy: </span><br><span class="line">type: git </span><br><span class="line">repository: git@github.com:*******github.io.git &#x2F;&#x2F; 个人github.io地址 </span><br><span class="line">branch: master</span><br></pre></td></tr></table></figure><p>　　<strong>GitHub.io地址务必正确</strong></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo g</span><br><span class="line">$ hexo d // deploy 将.deploy目录部署到GitHub</span><br></pre></td></tr></table></figure><p>　　刷新个人Github.io界面就可以看到结果了。</p><h3 id="遇到的问题及其解决方法"><a href="#遇到的问题及其解决方法" class="headerlink" title="遇到的问题及其解决方法"></a><h1 id="4">遇到的问题及其解决方法</h1></h3><p>1.npm 命令 not found<br>　　解决方法：<br>　　　　搜索是否有npm文件夹，有则添加进环境变量，无则下载<br>　　　　<br>2.npm 文件夹已存在且环境变量也已经设置好，依旧 npm not found<br>　　解决方法：<br>　　　　Windows系统环境变量需要<strong>重启</strong>才能应用。<br>　　　　<br>3.hexo init 命令无效<br>　　解决方法：<br>　　　　根据提示，hexo init 只能在空文件夹中使用，新建空文件夹或是替换命令为</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">　　$ hexo init &lt;文件夹名&gt; // 新建一个 &lt;文件夹名&gt;的文件夹，hexo 安装于此</span><br></pre></td></tr></table></figure><p>4.在本地服务器上可以显示主题，但是无法在GitHub.io上显示<br>　　解决方法：<br>　　　　仔细检查　_config.yml　文件的GitHub.io 网址。<br>　　　　<font color=Red>务必和用户名相同</font><br>　　　　(不同的话说明只是提交到这个仓库上了，但这不是GitHub.io)<br>　　　　<br>5.Markdown 空格问题<br>　　解决方法：<br>　　　　网上有很多方法，我使用的是全角空格法。<br>　　　　<br>6.Markdown 字体颜色<br>　　解决方法：</p><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">　　<span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span>=<span class="string">Red</span>&gt;</span>表达的字<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure><p>7.Markdown 流程图无法在博客上显示的问题<br>　　解决方法：<br>　　　　在本地安装<a href="https://github.com/bubkoo/hexo-filter-flowchart" target="_blank" rel="noopener">flowchart.js </a>,并按照提示修改_config.yml 配置文件<br>　　　　<br>8.Markdown 在博客上无法同时出现两个图片(图片链接放在最后)<br>　　解决方法：<br>　　　　我暂时还没有找到好方法(在在线Markdown中可以实现同时实现放在最后，但是在博客站上不行)<br>　　　　我使用笨方法，第一个图片链接放在最后，第二个直接粘贴链接在文本中。　　　　</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        
+
+&lt;blockquote&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;#1&quot;&gt;1.了解一般类型的博客站的建立方法&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#2&quot;&gt;2.Gi
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python 学习</title>
+    <link href="http://yoursite.com/2020/07/26/Python%20%E5%AD%A6%E4%B9%A0/"/>
+    <id>http://yoursite.com/2020/07/26/Python%20%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-07-26T03:44:32.959Z</published>
+    <updated>2020-07-26T03:44:32.959Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><h2 id="目录"><a href="#目录" class="headerlink" title="目录"></a>目录</h2><p><a href="#1">1.Python 统计学相关</a><br><a href="#2">2.Python 小技巧-字符串格式化</a><br><a href="#3">3.Python 小技巧-正则分割字符串</a><br><a href="#4">4.Python 小技巧-全局变量设定</a><br><a href="#5">5.Python 小技巧-print使用</a></p></blockquote><h3 id="Python-统计学相关"><a href="#Python-统计学相关" class="headerlink" title="Python 统计学相关"></a><h1 id = "1">Python 统计学相关</h1></h3><p>　　1.所使用的包： scipy , statsmodels<br>　　　　作用：scipy 是统计学里面非常著名的包了，这次的使用主要是用于对假设检验中的t检验<br>　　　　　　　而statsmodels则是使用里面的ztest来完成假设检验中的z检验</p><h3 id="Python-小技巧-字符串格式化"><a href="#Python-小技巧-字符串格式化" class="headerlink" title="Python 小技巧-字符串格式化"></a><h1 id = "2">Python 小技巧-字符串格式化</h1></h3><p>　　<br>　　Python 中 可以使用类似C语言标准化输出字符串格式格式一个字符串，如：</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s = input(<span class="string">"Using %s / %s , please input %c / %c  \n"</span> % (str1,str2,str1[<span class="number">0</span>],str2[<span class="number">0</span>]))</span><br></pre></td></tr></table></figure><p>　　需要注意的是：<font color=Red> 百分号’%’在字符串内，而不再input外</font></p><h3 id="Python-小技巧-正则分割字符串"><a href="#Python-小技巧-正则分割字符串" class="headerlink" title="Python 小技巧-正则分割字符串"></a><h1 id = "3">Python 小技巧-正则分割字符串</h1></h3><p>　　使用 re 包，如下例所示</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> re </span><br><span class="line">arr = re.split(<span class="string">'[ |,]'</span>,string)</span><br></pre></td></tr></table></figure><h3 id="Python-小技巧-全局变量设定"><a href="#Python-小技巧-全局变量设定" class="headerlink" title="Python 小技巧-全局变量设定"></a><h1 id = "4">Python 小技巧-全局变量设定</h1></h3><p>　　使用global关键字，<font color = Red>声明时不能初始化</font></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">global</span> x</span><br></pre></td></tr></table></figure><h3 id="Python-小技巧-print使用"><a href="#Python-小技巧-print使用" class="headerlink" title="Python 小技巧-print使用"></a><h1 id = "5">Python 小技巧-print使用</h1></h3><p>　　print可以以’,’接数据，如下例</p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"The answer is "</span>,answer)</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;h2 id=&quot;目录&quot;&gt;&lt;a href=&quot;#目录&quot; class=&quot;headerlink&quot; title=&quot;目录&quot;&gt;&lt;/a&gt;目录&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;#1&quot;&gt;1.Python 统计学相关&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;#2&quot;&gt;2.Python 
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>对文件字符串逆序(Reserve string)</title>
+    <link href="http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Reserve%20string/"/>
+    <id>http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Reserve%20string/</id>
+    <published>2020-07-26T03:43:26.715Z</published>
+    <updated>2020-07-26T03:43:26.715Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h1><p>  对某文件中的字符串逆序输出到另一文件中</p><h3 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h3><p>  首先就是文件的读写，看题目就清楚，至少读写必须掌握。<br>  这个题目有多种解决方法，大部分应该是把文件全部读入，然后在数组中逆序输出到另一文件中。  </p><p><font color=red>不过，我的方法可能不太一样。</font></p><p>  我用到了文件指针（如果不熟悉请复习），在打开文件之后，将文件指针移至末尾，通过倒序读取的方式来完成。</p><p><strong><font color=red>注意：要明确自己的文件格式。我的文件是utf8编码，所以在第一个字符（EOF）之后，每次移动两个字节。</font></strong></p><p><a href="https://github.com/KirisameMarisas/Assembly-homework" target="_blank" rel="noopener">asm文件</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; class=&quot;headerlink&quot; title=&quot;题目&quot;&gt;&lt;/a&gt;题目&lt;/h1&gt;&lt;p&gt;  对某文件中的字符串逆序输出到另一文件中&lt;/p&gt;
+&lt;h3 id=&quot;分析&quot;&gt;&lt;a href=&quot;#分析&quot; class=&quot;headerlink&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SCAU  Assembly-Homework</title>
+    <link href="http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Reserve%20Array/"/>
+    <id>http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Reserve%20Array/</id>
+    <published>2020-07-26T03:42:34.325Z</published>
+    <updated>2020-07-26T03:42:34.325Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Reserve-Array"><a href="#Reserve-Array" class="headerlink" title="Reserve Array"></a>Reserve Array</h1><h4 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h4><p>  编写程序，将数据段里的某数组在原位置逆序(例如ARRAY数组 {1,2,3} 变为 {3,2,1} 但是首地址依旧是ARRAY). 要求用子程序实现逆序操作，子程序要求有一定通用性，能够处理不同的数组。</p><h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p>思路非常简单，和高级程序写相同。使用”第三者”来做转换。但是由于 MOV 指令的特殊性，无法两个内存变量直接传值，因此使用 “第四者”。逆序操作：采用下标(地址)对比法，双指针。在.asm文件中，我用AX作为前指针(从0开始)，CX作为尾指针(从数组底端开始) 然后采用比对方式来判断是否做完。<br>**<font color=red>注意：需要特判数组个数为1的情况和偶数数组</font>**</p><p><a href="https://github.com/KirisameMarisas/Assembly-homework" target="_blank" rel="noopener">asm文件</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Reserve-Array&quot;&gt;&lt;a href=&quot;#Reserve-Array&quot; class=&quot;headerlink&quot; title=&quot;Reserve Array&quot;&gt;&lt;/a&gt;Reserve Array&lt;/h1&gt;&lt;h4 id=&quot;题目&quot;&gt;&lt;a href=&quot;#题目&quot; cla
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Show Exe file information(mycode_final)</title>
+    <link href="http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Final%20work%20(show%20exe%20file%20information)/"/>
+    <id>http://yoursite.com/2020/07/26/SCAU%20Assembly-homework/Final%20work%20(show%20exe%20file%20information)/</id>
+    <published>2020-07-26T03:40:56.075Z</published>
+    <updated>2020-07-26T03:40:56.075Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Show-Exe-file-information"><a href="#Show-Exe-file-information" class="headerlink" title="Show Exe file information"></a>Show Exe file information</h1><h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>  我选择的题目是最简单的 展示EXE文件头信息。具体的文件头有什么可以点开<a href="https://blog.csdn.net/benny5609/article/details/2552117" target="_blank" rel="noopener">这个网站(The information of Exe file head )</a>根据文中表格对照来显示。</p><h4 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h4><p>  思路…..,就是模拟+输出。没有什么其他含义。就是函数的调用非常重复，有些繁琐，但却又必要。<br>  <a href="https://github.com/KirisameMarisas/Assembly-homework" target="_blank" rel="noopener">asm文件</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Show-Exe-file-information&quot;&gt;&lt;a href=&quot;#Show-Exe-file-information&quot; class=&quot;headerlink&quot; title=&quot;Show Exe file information&quot;&gt;&lt;/a&gt;Show Exe fi
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
